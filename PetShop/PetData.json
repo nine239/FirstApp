@@ -1,0 +1,102 @@
+[
+    {
+        "name" : "Poodle",
+        "price" : "309",
+        "image" : "poodle_pet"
+    },
+    {
+        "name" : "Golden",
+        "price" : "639",
+        "image" : "golden_pet"
+    },
+    {
+        "name" : "Corgi",
+        "price" : "419",
+        "image" : "corgi_pet"
+    },
+    {
+        "name" : "Alaska",
+        "price" : "619",
+        "image" : "alaska_pet"
+    },
+    {
+        "name" : "Husky",
+        "price" : "619",
+        "image" : "husky_pet"
+    },
+    {
+        "name" : "Shiba",
+        "price" : "1299",
+        "image" : "shiba_pet"
+    },
+    {
+        "name" : "Pomeranian",
+        "price" : "539",
+        "image" : "pomeranian_pet"
+    },
+    {
+        "name" : "Pug",
+        "price" : "309",
+        "image" : "pug_pet"
+    },
+    {
+        "name" : "Samoyed",
+        "price" : "309",
+        "image" : "samoyed_pet"
+    },
+    {
+        "name" : "Chihuahua",
+        "price" : "169",
+        "image" : "chihuahua_pet"
+    },
+    {
+        "name" : "Dachshund",
+        "price" : "169",
+        "image" : "dachshund_pet"
+    },
+    {
+        "name" : "Beagle",
+        "price" : "259",
+        "image" : "beagle_pet"
+    },
+    {
+        "name" : "Collie",
+        "price" : "609",
+        "image" : "collie_pet"
+    },
+    {
+        "name" : "Becgie",
+        "price" : "439",
+        "image" : "becgie_pet"
+    },
+    {
+        "name" : "Bac Kinh Dog",
+        "price" : "169",
+        "image" : "backinh_pet"
+    },
+    {
+        "name" : "Doberman",
+        "price" : "439",
+        "image" : "doberman_pet"
+    },
+    {
+        "name" : "Yorkshire",
+        "price" : "439",
+        "image" : "yorkshire_pet"
+    },
+    {
+        "name" : "Maltese",
+        "price" : "439",
+        "image" : "maltese_pet"
+    },
+    {
+        "name" : "England Bull",
+        "price" : "539",
+        "image" : "englandBull_pet"
+    },
+    {
+        "name" : "France Bull",
+        "price" : "789",
+        "image" : "franceBull_pet"
+    }
+]

@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83C86232C6BD10700815DE4 /* PetData.json in Resources */ = {isa = PBXBuildFile; fileRef = D83C86222C6BD10700815DE4 /* PetData.json */; };
+		D83C86262C6BD17400815DE4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C86252C6BD17400815DE4 /* HomeViewController.swift */; };
+		D83C862B2C6BD1AC00815DE4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C86292C6BD1AC00815DE4 /* MyCollectionViewCell.swift */; };
+		D83C862C2C6BD1AC00815DE4 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83C862A2C6BD1AC00815DE4 /* MyCollectionViewCell.xib */; };
 		D88044A72C6BBAB5008441BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044A62C6BBAB5008441BB /* AppDelegate.swift */; };
 		D88044A92C6BBAB5008441BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044A82C6BBAB5008441BB /* SceneDelegate.swift */; };
-		D88044AB2C6BBAB5008441BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044AA2C6BBAB5008441BB /* ViewController.swift */; };
 		D88044AE2C6BBAB5008441BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88044AC2C6BBAB5008441BB /* Main.storyboard */; };
 		D88044B12C6BBAB5008441BB /* PetShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D88044AF2C6BBAB5008441BB /* PetShop.xcdatamodeld */; };
 		D88044B32C6BBAB7008441BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88044B22C6BBAB7008441BB /* Assets.xcassets */; };
@@ -17,6 +20,16 @@
 		D88044C12C6BBAB7008441BB /* PetShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044C02C6BBAB7008441BB /* PetShopTests.swift */; };
 		D88044CB2C6BBAB7008441BB /* PetShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044CA2C6BBAB7008441BB /* PetShopUITests.swift */; };
 		D88044CD2C6BBAB7008441BB /* PetShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044CC2C6BBAB7008441BB /* PetShopUITestsLaunchTests.swift */; };
+		D88044DB2C6BBB92008441BB /* TaiKhoan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044D92C6BBB92008441BB /* TaiKhoan+CoreDataClass.swift */; };
+		D88044DC2C6BBB92008441BB /* TaiKhoan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044DA2C6BBB92008441BB /* TaiKhoan+CoreDataProperties.swift */; };
+		D88044E22C6BC0F0008441BB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044E12C6BC0F0008441BB /* RegisterViewController.swift */; };
+		D88044E42C6BC405008441BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88044E32C6BC405008441BB /* LoginViewController.swift */; };
+		D8C400622C6C434100DEC89A /* BuyingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C400612C6C434100DEC89A /* BuyingViewController.swift */; };
+		D8C400652C6C437E00DEC89A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C400632C6C437E00DEC89A /* MyTableViewCell.swift */; };
+		D8C400662C6C437E00DEC89A /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C400642C6C437E00DEC89A /* MyTableViewCell.xib */; };
+		D8C400692C6C453A00DEC89A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C400682C6C453A00DEC89A /* ProfileViewController.swift */; };
+		D8C4006B2C6C463E00DEC89A /* ViewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C4006A2C6C463E00DEC89A /* ViewProfileViewController.swift */; };
+		D8C4006D2C6C464F00DEC89A /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C4006C2C6C464F00DEC89A /* ChangePasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D83C86222C6BD10700815DE4 /* PetData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PetData.json; sourceTree = "<group>"; };
+		D83C86252C6BD17400815DE4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D83C86292C6BD1AC00815DE4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		D83C862A2C6BD1AC00815DE4 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		D88044A32C6BBAB5008441BB /* PetShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88044A62C6BBAB5008441BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88044A82C6BBAB5008441BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D88044AA2C6BBAB5008441BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D88044AD2C6BBAB5008441BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D88044B02C6BBAB5008441BB /* PetShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetShop.xcdatamodel; sourceTree = "<group>"; };
 		D88044B22C6BBAB7008441BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +67,16 @@
 		D88044C62C6BBAB7008441BB /* PetShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88044CA2C6BBAB7008441BB /* PetShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopUITests.swift; sourceTree = "<group>"; };
 		D88044CC2C6BBAB7008441BB /* PetShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D88044D92C6BBB92008441BB /* TaiKhoan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaiKhoan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D88044DA2C6BBB92008441BB /* TaiKhoan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaiKhoan+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D88044E12C6BC0F0008441BB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D88044E32C6BC405008441BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8C400612C6C434100DEC89A /* BuyingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingViewController.swift; sourceTree = "<group>"; };
+		D8C400632C6C437E00DEC89A /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		D8C400642C6C437E00DEC89A /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		D8C400682C6C453A00DEC89A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D8C4006A2C6C463E00DEC89A /* ViewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfileViewController.swift; sourceTree = "<group>"; };
+		D8C4006C2C6C464F00DEC89A /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D83C86242C6BD15200815DE4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D83C86252C6BD17400815DE4 /* HomeViewController.swift */,
+				D83C86292C6BD1AC00815DE4 /* MyCollectionViewCell.swift */,
+				D83C862A2C6BD1AC00815DE4 /* MyCollectionViewCell.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		D880449A2C6BBAB5008441BB = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +137,19 @@
 		D88044A52C6BBAB5008441BB /* PetShop */ = {
 			isa = PBXGroup;
 			children = (
+				D88044DE2C6BC0B6008441BB /* Login&Register */,
+				D88044DD2C6BBB9A008441BB /* Model */,
+				D83C86242C6BD15200815DE4 /* Menu */,
+				D8C400602C6C431D00DEC89A /* Buy Screen */,
+				D8C400672C6C44E500DEC89A /* Profile */,
 				D88044A62C6BBAB5008441BB /* AppDelegate.swift */,
 				D88044A82C6BBAB5008441BB /* SceneDelegate.swift */,
-				D88044AA2C6BBAB5008441BB /* ViewController.swift */,
 				D88044AC2C6BBAB5008441BB /* Main.storyboard */,
 				D88044B22C6BBAB7008441BB /* Assets.xcassets */,
 				D88044B42C6BBAB7008441BB /* LaunchScreen.storyboard */,
 				D88044B72C6BBAB7008441BB /* Info.plist */,
 				D88044AF2C6BBAB5008441BB /* PetShop.xcdatamodeld */,
+				D83C86222C6BD10700815DE4 /* PetData.json */,
 			);
 			path = PetShop;
 			sourceTree = "<group>";
@@ -128,6 +169,44 @@
 				D88044CC2C6BBAB7008441BB /* PetShopUITestsLaunchTests.swift */,
 			);
 			path = PetShopUITests;
+			sourceTree = "<group>";
+		};
+		D88044DD2C6BBB9A008441BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D88044D92C6BBB92008441BB /* TaiKhoan+CoreDataClass.swift */,
+				D88044DA2C6BBB92008441BB /* TaiKhoan+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D88044DE2C6BC0B6008441BB /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				D88044E32C6BC405008441BB /* LoginViewController.swift */,
+				D88044E12C6BC0F0008441BB /* RegisterViewController.swift */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		D8C400602C6C431D00DEC89A /* Buy Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D8C400612C6C434100DEC89A /* BuyingViewController.swift */,
+				D8C400632C6C437E00DEC89A /* MyTableViewCell.swift */,
+				D8C400642C6C437E00DEC89A /* MyTableViewCell.xib */,
+			);
+			path = "Buy Screen";
+			sourceTree = "<group>";
+		};
+		D8C400672C6C44E500DEC89A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D8C400682C6C453A00DEC89A /* ProfileViewController.swift */,
+				D8C4006A2C6C463E00DEC89A /* ViewProfileViewController.swift */,
+				D8C4006C2C6C464F00DEC89A /* ChangePasswordViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83C862C2C6BD1AC00815DE4 /* MyCollectionViewCell.xib in Resources */,
+				D8C400662C6C437E00DEC89A /* MyTableViewCell.xib in Resources */,
 				D88044B62C6BBAB7008441BB /* LaunchScreen.storyboard in Resources */,
 				D88044B32C6BBAB7008441BB /* Assets.xcassets in Resources */,
 				D88044AE2C6BBAB5008441BB /* Main.storyboard in Resources */,
+				D83C86232C6BD10700815DE4 /* PetData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +343,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88044AB2C6BBAB5008441BB /* ViewController.swift in Sources */,
+				D8C4006B2C6C463E00DEC89A /* ViewProfileViewController.swift in Sources */,
+				D88044E42C6BC405008441BB /* LoginViewController.swift in Sources */,
+				D88044DB2C6BBB92008441BB /* TaiKhoan+CoreDataClass.swift in Sources */,
+				D83C862B2C6BD1AC00815DE4 /* MyCollectionViewCell.swift in Sources */,
+				D8C400652C6C437E00DEC89A /* MyTableViewCell.swift in Sources */,
+				D88044E22C6BC0F0008441BB /* RegisterViewController.swift in Sources */,
+				D83C86262C6BD17400815DE4 /* HomeViewController.swift in Sources */,
+				D8C400692C6C453A00DEC89A /* ProfileViewController.swift in Sources */,
 				D88044A72C6BBAB5008441BB /* AppDelegate.swift in Sources */,
+				D8C400622C6C434100DEC89A /* BuyingViewController.swift in Sources */,
 				D88044A92C6BBAB5008441BB /* SceneDelegate.swift in Sources */,
+				D88044DC2C6BBB92008441BB /* TaiKhoan+CoreDataProperties.swift in Sources */,
 				D88044B12C6BBAB5008441BB /* PetShop.xcdatamodeld in Sources */,
+				D8C4006D2C6C464F00DEC89A /* ChangePasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
